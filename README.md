@@ -6,11 +6,11 @@ Use one MEGA238P per arrow to read & convert the 4 FSR values into a pressed/not
 Use 25 SK6812 LEDs to light up the panel when pressed and show animations when idle.
 
 # Parts
-Arduino-pro-mini clone
-MCP2125 - CAN - interface with Teensy
-Teensy 3.2 - interface with DDR cabinet
-SK6812 - 'Neopixel' LEDs
-FSR - x32 - 4 per tile
+- Arduino-pro-mini clone
+- MCP2125 - CAN - interface with Teensy
+- Teensy 3.2 - interface with DDR cabinet
+- SK6812 - 'Neopixel' LEDs
+- FSR - x32 - 4 per tile
 
 # Why
 I have a DDR cabinet, and I am tired of dealing with stuck sensors. This will let me 
