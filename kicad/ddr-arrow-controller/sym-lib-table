@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Arduino-Pro-Mini)(type Legacy)(uri C:/Users/Sean/Documents/kicad/footprints/arduino-pro-mini/Arduino_Pro_Mini.lib)(options "")(descr ""))
+)

@@ -1,0 +1,852 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:SK6812 D8
+U 1 1 5FA41D56
+P 8150 3250
+F 0 "D8" H 7950 3700 50  0001 L CNN
+F 1 "SK6812" H 7950 3800 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8200 2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8250 2875 50  0001 L TNN
+	1    8150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D13
+U 1 1 5FA41D5C
+P 8750 3250
+F 0 "D13" H 8550 3700 50  0001 L CNN
+F 1 "SK6812" H 8550 3800 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8800 2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8850 2875 50  0001 L TNN
+	1    8750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D18
+U 1 1 5FA41D62
+P 9350 3250
+F 0 "D18" H 9150 3700 50  0001 L CNN
+F 1 "SK6812" H 9150 3800 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9400 2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9450 2875 50  0001 L TNN
+	1    9350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D23
+U 1 1 5FA41D68
+P 9950 3250
+F 0 "D23" H 9750 3700 50  0001 L CNN
+F 1 "SK6812" H 9750 3800 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10000 2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10050 2875 50  0001 L TNN
+	1    9950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D2
+U 1 1 5FA48703
+P 7550 2150
+F 0 "D2" H 7350 2600 50  0001 L CNN
+F 1 "SK6812" H 7350 2700 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7600 1850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7650 1775 50  0001 L TNN
+	1    7550 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D3
+U 1 1 5FA41D50
+P 7550 3250
+F 0 "D3" H 7350 3700 50  0001 L CNN
+F 1 "SK6812" H 7350 3800 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7600 2950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7650 2875 50  0001 L TNN
+	1    7550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D1
+U 1 1 5FA2F406
+P 7550 1050
+F 0 "D1" H 7400 1450 50  0000 L CNN
+F 1 "SK6812" H 7400 1550 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7600 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7650 675 50  0001 L TNN
+	1    7550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D11
+U 1 1 5FA522BE
+P 8750 1050
+F 0 "D11" H 8550 1500 50  0001 L CNN
+F 1 "SK6812" H 8550 1600 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8800 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8850 675 50  0001 L TNN
+	1    8750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D16
+U 1 1 5FA522C4
+P 9350 1050
+F 0 "D16" H 9150 1500 50  0001 L CNN
+F 1 "SK6812" H 9150 1600 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9400 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9450 675 50  0001 L TNN
+	1    9350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D21
+U 1 1 5FA522CA
+P 9950 1050
+F 0 "D21" H 9750 1500 50  0001 L CNN
+F 1 "SK6812" H 9750 1600 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10000 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10050 675 50  0001 L TNN
+	1    9950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D6
+U 1 1 5FA522D0
+P 8150 1050
+F 0 "D6" H 7950 1500 50  0001 L CNN
+F 1 "SK6812" H 7950 1600 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8200 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8250 675 50  0001 L TNN
+	1    8150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D10
+U 1 1 5FA56659
+P 8150 5450
+F 0 "D10" H 7950 5900 50  0001 L CNN
+F 1 "SK6812" H 7950 6000 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8200 5150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8250 5075 50  0001 L TNN
+	1    8150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D15
+U 1 1 5FA5665F
+P 8750 5450
+F 0 "D15" H 8550 5900 50  0001 L CNN
+F 1 "SK6812" H 8550 6000 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8800 5150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8850 5075 50  0001 L TNN
+	1    8750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D20
+U 1 1 5FA56665
+P 9350 5450
+F 0 "D20" H 9150 5900 50  0001 L CNN
+F 1 "SK6812" H 9150 6000 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9400 5150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9450 5075 50  0001 L TNN
+	1    9350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D25
+U 1 1 5FA5666B
+P 9950 5450
+F 0 "D25" H 9750 5900 50  0001 L CNN
+F 1 "SK6812" H 9750 6000 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10000 5150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10050 5075 50  0001 L TNN
+	1    9950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D5
+U 1 1 5FA56671
+P 7550 5450
+F 0 "D5" H 7350 5900 50  0001 L CNN
+F 1 "SK6812" H 7350 6000 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7600 5150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7650 5075 50  0001 L TNN
+	1    7550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812 D7
+U 1 1 5FA60E5D
+P 8150 2150
+F 0 "D7" H 7950 2600 50  0001 L CNN
+F 1 "SK6812" H 7950 2700 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8200 1850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8250 1775 50  0001 L TNN
+	1    8150 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D12
+U 1 1 5FA61E33
+P 8750 2150
+F 0 "D12" H 8550 2600 50  0001 L CNN
+F 1 "SK6812" H 8550 2700 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8800 1850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8850 1775 50  0001 L TNN
+	1    8750 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D17
+U 1 1 5FA61E39
+P 9350 2150
+F 0 "D17" H 9150 2600 50  0001 L CNN
+F 1 "SK6812" H 9150 2700 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9400 1850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9450 1775 50  0001 L TNN
+	1    9350 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D22
+U 1 1 5FA62BEB
+P 9950 2150
+F 0 "D22" H 9750 2600 50  0001 L CNN
+F 1 "SK6812" H 9750 2700 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10000 1850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10050 1775 50  0001 L TNN
+	1    9950 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D4
+U 1 1 5FA765BD
+P 7550 4350
+F 0 "D4" H 7350 4800 50  0001 L CNN
+F 1 "SK6812" H 7350 4900 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7600 4050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7650 3975 50  0001 L TNN
+	1    7550 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D9
+U 1 1 5FA765C3
+P 8150 4350
+F 0 "D9" H 7950 4800 50  0001 L CNN
+F 1 "SK6812" H 7950 4900 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8200 4050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8250 3975 50  0001 L TNN
+	1    8150 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D14
+U 1 1 5FA765C9
+P 8750 4350
+F 0 "D14" H 8550 4800 50  0001 L CNN
+F 1 "SK6812" H 8550 4900 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8800 4050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8850 3975 50  0001 L TNN
+	1    8750 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D19
+U 1 1 5FA765CF
+P 9350 4350
+F 0 "D19" H 9150 4800 50  0001 L CNN
+F 1 "SK6812" H 9150 4900 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 9400 4050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 9450 3975 50  0001 L TNN
+	1    9350 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:SK6812 D24
+U 1 1 5FA765D5
+P 9950 4350
+F 0 "D24" H 9750 4800 50  0001 L CNN
+F 1 "SK6812" H 9750 4900 50  0001 L CNN
+F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 10000 4050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 10050 3975 50  0001 L TNN
+	1    9950 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA7FC4F
+P 10350 750
+F 0 "#PWR0101" H 10350 500 50  0001 C CNN
+F 1 "GND" H 10355 577 50  0000 C CNN
+F 2 "" H 10350 750 50  0001 C CNN
+F 3 "" H 10350 750 50  0001 C CNN
+	1    10350 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 750  8150 750 
+Wire Wire Line
+	8150 750  8750 750 
+Connection ~ 8150 750 
+Wire Wire Line
+	8750 750  9350 750 
+Connection ~ 8750 750 
+Wire Wire Line
+	9350 750  9950 750 
+Connection ~ 9350 750 
+Wire Wire Line
+	9950 750  10350 750 
+Connection ~ 9950 750 
+$Comp
+L power:GND #PWR0102
+U 1 1 5FA83236
+P 7200 1850
+F 0 "#PWR0102" H 7200 1600 50  0001 C CNN
+F 1 "GND" H 7205 1677 50  0000 C CNN
+F 2 "" H 7200 1850 50  0001 C CNN
+F 3 "" H 7200 1850 50  0001 C CNN
+	1    7200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1850 9350 1850
+Wire Wire Line
+	8750 1850 9350 1850
+Connection ~ 9350 1850
+Wire Wire Line
+	8750 1850 8150 1850
+Connection ~ 8750 1850
+Wire Wire Line
+	8150 1850 7550 1850
+Connection ~ 8150 1850
+Wire Wire Line
+	7550 2950 8150 2950
+Wire Wire Line
+	8150 2950 8750 2950
+Connection ~ 8150 2950
+Wire Wire Line
+	9350 2950 8750 2950
+Connection ~ 8750 2950
+Wire Wire Line
+	9350 2950 9950 2950
+Connection ~ 9350 2950
+$Comp
+L power:GND #PWR0103
+U 1 1 5FA87530
+P 10350 2950
+F 0 "#PWR0103" H 10350 2700 50  0001 C CNN
+F 1 "GND" H 10355 2777 50  0000 C CNN
+F 2 "" H 10350 2950 50  0001 C CNN
+F 3 "" H 10350 2950 50  0001 C CNN
+	1    10350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FA894A5
+P 10350 5150
+F 0 "#PWR0104" H 10350 4900 50  0001 C CNN
+F 1 "GND" H 10355 4977 50  0000 C CNN
+F 2 "" H 10350 5150 50  0001 C CNN
+F 3 "" H 10350 5150 50  0001 C CNN
+	1    10350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4050 9350 4050
+Wire Wire Line
+	9350 4050 8750 4050
+Connection ~ 9350 4050
+Wire Wire Line
+	8150 4050 8750 4050
+Connection ~ 8750 4050
+Connection ~ 8150 4050
+Wire Wire Line
+	7550 5150 8150 5150
+Wire Wire Line
+	8750 5150 8150 5150
+Connection ~ 8150 5150
+Wire Wire Line
+	8750 5150 9350 5150
+Connection ~ 8750 5150
+Wire Wire Line
+	9350 5150 9950 5150
+Connection ~ 9350 5150
+Wire Wire Line
+	9950 5150 10350 5150
+Connection ~ 9950 5150
+Connection ~ 7550 4050
+Wire Wire Line
+	9950 2950 10350 2950
+Connection ~ 9950 2950
+$Comp
+L power:+5V #PWR0105
+U 1 1 5FA8EC6E
+P 7200 1350
+F 0 "#PWR0105" H 7200 1200 50  0001 C CNN
+F 1 "+5V" H 7215 1523 50  0000 C CNN
+F 2 "" H 7200 1350 50  0001 C CNN
+F 3 "" H 7200 1350 50  0001 C CNN
+	1    7200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5FA930E1
+P 10350 4650
+F 0 "#PWR0106" H 10350 4500 50  0001 C CNN
+F 1 "+5V" H 10365 4823 50  0000 C CNN
+F 2 "" H 10350 4650 50  0001 C CNN
+F 3 "" H 10350 4650 50  0001 C CNN
+	1    10350 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 5750
+Wire Wire Line
+	8150 5750 8750 5750
+Connection ~ 8150 5750
+Wire Wire Line
+	8750 5750 9350 5750
+Connection ~ 8750 5750
+Wire Wire Line
+	9350 5750 9950 5750
+Connection ~ 9350 5750
+Wire Wire Line
+	7550 4650 8150 4650
+Wire Wire Line
+	8150 4650 8750 4650
+Connection ~ 8150 4650
+Wire Wire Line
+	8750 4650 9350 4650
+Connection ~ 8750 4650
+Wire Wire Line
+	9350 4650 9950 4650
+Connection ~ 9350 4650
+Wire Wire Line
+	9950 4650 10350 4650
+Connection ~ 9950 4650
+Wire Wire Line
+	9950 3550 9350 3550
+Wire Wire Line
+	8750 3550 9350 3550
+Connection ~ 9350 3550
+Wire Wire Line
+	8750 3550 8150 3550
+Connection ~ 8750 3550
+Connection ~ 8150 3550
+Connection ~ 7550 3550
+$Comp
+L power:+5V #PWR0107
+U 1 1 5FAA4A37
+P 10350 2450
+F 0 "#PWR0107" H 10350 2300 50  0001 C CNN
+F 1 "+5V" H 10365 2623 50  0000 C CNN
+F 2 "" H 10350 2450 50  0001 C CNN
+F 3 "" H 10350 2450 50  0001 C CNN
+	1    10350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2450 7550 2450
+Wire Wire Line
+	8150 2450 8750 2450
+Connection ~ 8150 2450
+Wire Wire Line
+	8750 2450 9350 2450
+Connection ~ 8750 2450
+Wire Wire Line
+	9950 2450 9350 2450
+Connection ~ 9350 2450
+Wire Wire Line
+	9950 2450 10350 2450
+Connection ~ 9950 2450
+Wire Wire Line
+	9350 1350 9950 1350
+Wire Wire Line
+	9350 1350 8750 1350
+Connection ~ 9350 1350
+Wire Wire Line
+	8150 1350 8750 1350
+Connection ~ 8750 1350
+Wire Wire Line
+	8150 1350 7550 1350
+Connection ~ 8150 1350
+$Comp
+L pspice:CAP C1
+U 1 1 5FABD037
+P 7550 1600
+F 0 "C1" H 7728 1646 50  0001 L CNN
+F 1 "0.1uF" H 7728 1600 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 1600 50  0001 C CNN
+F 3 "~" H 7550 1600 50  0001 C CNN
+	1    7550 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 1350
+Connection ~ 7550 1850
+Wire Wire Line
+	10250 1050 10250 2150
+Wire Wire Line
+	7250 2150 7250 3250
+Wire Wire Line
+	7200 1350 7550 1350
+Wire Wire Line
+	7550 1850 7200 1850
+Wire Wire Line
+	7200 4050 7550 4050
+$Comp
+L power:GND #PWR0108
+U 1 1 5FA88887
+P 7200 4050
+F 0 "#PWR0108" H 7200 3800 50  0001 C CNN
+F 1 "GND" H 7205 3877 50  0000 C CNN
+F 2 "" H 7200 4050 50  0001 C CNN
+F 3 "" H 7200 4050 50  0001 C CNN
+	1    7200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5FA9058B
+P 7200 3550
+F 0 "#PWR0109" H 7200 3400 50  0001 C CNN
+F 1 "+5V" H 7215 3723 50  0000 C CNN
+F 2 "" H 7200 3550 50  0001 C CNN
+F 3 "" H 7200 3550 50  0001 C CNN
+	1    7200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3550 7200 3550
+Wire Wire Line
+	7550 3550 8150 3550
+Wire Wire Line
+	7550 4050 8150 4050
+Wire Wire Line
+	7550 5750 8150 5750
+Wire Wire Line
+	7250 4350 7250 5450
+$Comp
+L power:GND #PWR0110
+U 1 1 5FBEE192
+P 7200 6250
+F 0 "#PWR0110" H 7200 6000 50  0001 C CNN
+F 1 "GND" H 7205 6077 50  0000 C CNN
+F 2 "" H 7200 6250 50  0001 C CNN
+F 3 "" H 7200 6250 50  0001 C CNN
+	1    7200 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5FC039D6
+P 7200 5750
+F 0 "#PWR0111" H 7200 5600 50  0001 C CNN
+F 1 "+5V" H 7215 5923 50  0000 C CNN
+F 2 "" H 7200 5750 50  0001 C CNN
+F 3 "" H 7200 5750 50  0001 C CNN
+	1    7200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5750 7550 5750
+$Comp
+L pspice:CAP C6
+U 1 1 5FC1359A
+P 8150 1600
+F 0 "C6" H 8328 1646 50  0001 L CNN
+F 1 "0.1uF" H 8328 1600 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 1600 50  0001 C CNN
+F 3 "~" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C11
+U 1 1 5FC166EE
+P 8750 1600
+F 0 "C11" H 8928 1646 50  0001 L CNN
+F 1 "0.1uF" H 8928 1600 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 1600 50  0001 C CNN
+F 3 "~" H 8750 1600 50  0001 C CNN
+	1    8750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C16
+U 1 1 5FC166F4
+P 9350 1600
+F 0 "C16" H 9528 1646 50  0001 L CNN
+F 1 "0.1uF" H 9528 1600 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 1600 50  0001 C CNN
+F 3 "~" H 9350 1600 50  0001 C CNN
+	1    9350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C21
+U 1 1 5FC186F1
+P 9950 1600
+F 0 "C21" H 10128 1646 50  0001 L CNN
+F 1 "0.1uF" H 10128 1600 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 1600 50  0001 C CNN
+F 3 "~" H 9950 1600 50  0001 C CNN
+	1    9950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C2
+U 1 1 5FC2F797
+P 7550 2700
+F 0 "C2" H 7728 2746 50  0001 L CNN
+F 1 "0.1uF" H 7728 2700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 2700 50  0001 C CNN
+F 3 "~" H 7550 2700 50  0001 C CNN
+	1    7550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C7
+U 1 1 5FC2F79D
+P 8150 2700
+F 0 "C7" H 8328 2746 50  0001 L CNN
+F 1 "0.1uF" H 8328 2700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 2700 50  0001 C CNN
+F 3 "~" H 8150 2700 50  0001 C CNN
+	1    8150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C12
+U 1 1 5FC2F7A3
+P 8750 2700
+F 0 "C12" H 8928 2746 50  0001 L CNN
+F 1 "0.1uF" H 8928 2700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 2700 50  0001 C CNN
+F 3 "~" H 8750 2700 50  0001 C CNN
+	1    8750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C17
+U 1 1 5FC2F7A9
+P 9350 2700
+F 0 "C17" H 9528 2746 50  0001 L CNN
+F 1 "0.1uF" H 9528 2700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 2700 50  0001 C CNN
+F 3 "~" H 9350 2700 50  0001 C CNN
+	1    9350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C22
+U 1 1 5FC2F7AF
+P 9950 2700
+F 0 "C22" H 10128 2746 50  0001 L CNN
+F 1 "0.1uF" H 10128 2700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 2700 50  0001 C CNN
+F 3 "~" H 9950 2700 50  0001 C CNN
+	1    9950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C4
+U 1 1 5FC3284D
+P 7550 4900
+F 0 "C4" H 7728 4946 50  0001 L CNN
+F 1 "0.1uF" H 7728 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 4900 50  0001 C CNN
+F 3 "~" H 7550 4900 50  0001 C CNN
+	1    7550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C9
+U 1 1 5FC32853
+P 8150 4900
+F 0 "C9" H 8328 4946 50  0001 L CNN
+F 1 "0.1uF" H 8328 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C14
+U 1 1 5FC32859
+P 8750 4900
+F 0 "C14" H 8928 4946 50  0001 L CNN
+F 1 "0.1uF" H 8928 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 4900 50  0001 C CNN
+F 3 "~" H 8750 4900 50  0001 C CNN
+	1    8750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C19
+U 1 1 5FC3285F
+P 9350 4900
+F 0 "C19" H 9528 4946 50  0001 L CNN
+F 1 "0.1uF" H 9528 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 4900 50  0001 C CNN
+F 3 "~" H 9350 4900 50  0001 C CNN
+	1    9350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C24
+U 1 1 5FC32865
+P 9950 4900
+F 0 "C24" H 10128 4946 50  0001 L CNN
+F 1 "0.1uF" H 10128 4900 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 4900 50  0001 C CNN
+F 3 "~" H 9950 4900 50  0001 C CNN
+	1    9950 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6250 7550 6250
+$Comp
+L pspice:CAP C5
+U 1 1 5FC39592
+P 7550 6000
+F 0 "C5" H 7728 6046 50  0001 L CNN
+F 1 "0.1uF" H 7728 6000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 6000 50  0001 C CNN
+F 3 "~" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C10
+U 1 1 5FC39598
+P 8150 6000
+F 0 "C10" H 8328 6046 50  0001 L CNN
+F 1 "0.1uF" H 8328 6000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C15
+U 1 1 5FC3959E
+P 8750 6000
+F 0 "C15" H 8928 6046 50  0001 L CNN
+F 1 "0.1uF" H 8928 6000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 6000 50  0001 C CNN
+F 3 "~" H 8750 6000 50  0001 C CNN
+	1    8750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C20
+U 1 1 5FC395A4
+P 9350 6000
+F 0 "C20" H 9528 6046 50  0001 L CNN
+F 1 "0.1uF" H 9528 6000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 6000 50  0001 C CNN
+F 3 "~" H 9350 6000 50  0001 C CNN
+	1    9350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C25
+U 1 1 5FC395AA
+P 9950 6000
+F 0 "C25" H 10128 6046 50  0001 L CNN
+F 1 "0.1uF" H 10128 6000 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 6000 50  0001 C CNN
+F 3 "~" H 9950 6000 50  0001 C CNN
+	1    9950 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 4650
+Connection ~ 7550 5150
+Connection ~ 7550 6250
+Wire Wire Line
+	7550 6250 8150 6250
+Connection ~ 8150 6250
+Wire Wire Line
+	8150 6250 8750 6250
+Connection ~ 8750 6250
+Wire Wire Line
+	8750 6250 9350 6250
+Connection ~ 9350 6250
+Wire Wire Line
+	9350 6250 9950 6250
+Connection ~ 9950 5750
+$Comp
+L pspice:CAP C3
+U 1 1 5FC4055A
+P 7550 3800
+F 0 "C3" H 7728 3846 50  0001 L CNN
+F 1 "0.1uF" H 7728 3800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 3800 50  0001 C CNN
+F 3 "~" H 7550 3800 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C8
+U 1 1 5FC40560
+P 8150 3800
+F 0 "C8" H 8328 3846 50  0001 L CNN
+F 1 "0.1uF" H 8328 3800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C13
+U 1 1 5FC40566
+P 8750 3800
+F 0 "C13" H 8928 3846 50  0001 L CNN
+F 1 "0.1uF" H 8928 3800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8750 3800 50  0001 C CNN
+F 3 "~" H 8750 3800 50  0001 C CNN
+	1    8750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C18
+U 1 1 5FC4056C
+P 9350 3800
+F 0 "C18" H 9528 3846 50  0001 L CNN
+F 1 "0.1uF" H 9528 3800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 3800 50  0001 C CNN
+F 3 "~" H 9350 3800 50  0001 C CNN
+	1    9350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C23
+U 1 1 5FC40572
+P 9950 3800
+F 0 "C23" H 10128 3846 50  0001 L CNN
+F 1 "0.1uF" H 10128 3800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9950 3800 50  0001 C CNN
+F 3 "~" H 9950 3800 50  0001 C CNN
+	1    9950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3250 10250 4350
+$EndSCHEMATC
