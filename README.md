@@ -1,3 +1,5 @@
+[![DDR FSR Upgrade](https://img.youtube.com/vi/kHoUUIsmSGY/0.jpg)](https://youtu.be/kHoUUIsmSGY "DDR FSR Upgrade")
+
 # dance-pad
 Code and schematics for Dance Dance Revolution - DDR - FSR sensor upgrade.
 
