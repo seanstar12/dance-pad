@@ -1,12 +1,19 @@
 #include <FlexCAN.h>
 #include <Keypad.h>
 
-char str[4];
-static CAN_message_t msg, rxMsg;
+static CAN_message_t msg;
 int txCount,rxCount;
-uint16_t _arrows[] = {KEY_LEFT, KEY_DOWN, KEY_RIGHT, KEY_UP}; // left, down, right, up
 
-FlexCAN CANbus(500000);
+const unsigned int CANSpeed = 500000;
+
+// left, down, right, up
+// use j-pac defaults for player1 & player2
+uint16_t _arrows[4][4] = {
+  {KEY_LEFT, KEY_DOWN, KEY_RIGHT, KEY_UP},
+  {'d', 'f', 'g', 'r'}
+}; 
+
+FlexCAN CANbus(CANSpeed);
 
 static void hexDump(uint8_t dumpLen, uint8_t *bytePtr) {
   uint8_t hex[17] = "0123456789abcdef";
@@ -26,7 +33,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
 
-  Can0.begin();
+  CANbus.begin();
   Keyboard.begin();
   
   Serial.println(F("Teensy Start"));
@@ -36,17 +43,17 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  while (Can0.available()) {
-    Can0.read(msg);
+  while (CANbus.available()) {
+    CANbus.read(msg);
     Serial.print("BUS: "); hexDump(3, msg.buf);
     
     if (msg.buf[2] == 1) {
       //Serial.println("Pressed");
-      Keyboard.press(_arrows[msg.buf[1]]);
+      Keyboard.press(_arrows[msg.buf[0]][msg.buf[1]]);
     }
     else {
       //Serial.println("unPressed");
-      Keyboard.release(_arrows[msg.buf[1]]);
+      Keyboard.release(_arrows[msg.buf[0]][msg.buf[1]]);
     }
 
     rxCount++;
