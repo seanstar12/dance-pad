@@ -1,16 +1,25 @@
-#include <Streaming.h>
-#include <StopWatch.h>
+//#include <Streaming.h>
 #include <avdweb_AnalogReadFast.h>
 #include <Adafruit_NeoPixel.h>
+#include <CAN.h>
 
-#define LED_PIN 10
-#define LED_COUNT 5
-#define AVG 20
+template <typename T, size_t N> constexpr size_t array_size(const T (&)[N]) { return N; }
 
 uint8_t adcPins[] = {A0, A1, A2, A3};
+uint8_t idntPins[] = {9, 8, 7};
 float adcValues[] = {0.0, 0.0, 0.0, 0.0};
 float adcBaseValues[] = {0.0, 0.0, 0.0, 0.0};
+String arrows[] = {"Left", "Down", "Right", "Up"};
+String _arrows[] = {"L", "D", "R", "U"};
 int prevActive = 0;
+
+char data_pad = 0;     // B0 - player_1; B1 - player_2
+char data_arrow = 0;   // B0 - left; B1 - down; B10 - right; B11 - up;
+char data_pressed = 0; // B0 - off; B1 - on;
+
+#define LED_PIN 2
+#define LED_COUNT 5
+#define AVG 20
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_RGB + NEO_KHZ800);
 
@@ -58,6 +67,18 @@ void setup(void) {
     pinMode(adcPins[i], INPUT_PULLUP);
   }
 
+  // set pullups for identity pins
+  for (int m = 0; m < 3; m++) {
+    pinMode(idntPins[m], INPUT_PULLUP);
+  }
+
+
+  // Read identity pins for config
+  // left, down, up, right
+  data_pad = digitalRead(9) == HIGH ? 1 : 0;
+  data_pad += digitalRead(7) == HIGH ? 2 : 0;
+  data_pad += digitalRead(8) == HIGH ? 4 : 0;
+  
   // take AVG readings
   for (int k = 0; k < AVG; k++) {
     readAnalogPins(adcPins, 4);
@@ -80,6 +101,21 @@ void setup(void) {
     Serial.println(adcBaseValues[1]);
     delay(200);
   }
+
+  if (true) {
+  Serial.print("Player: ");
+  Serial.print(bitRead(data_pad, 0) + 1, HEX);
+  Serial.print("\t Arrow: ");
+  Serial.println(_arrows[data_pad >> 1]);
+  //Serial.print("\t");
+  //Serial.print("Arrow");
+
+  }
+  
+  if (!CAN.begin(500000)) {
+    Serial.println("Starting CAN failed!");
+    while (1);
+  }
 }
 
 void loop(void) {
@@ -96,7 +132,6 @@ void loop(void) {
 
   //set green pixel if any sensor is triggered (debug)
   if (active > 0) {
-    active = 1;
     strip.setPixelColor(4, 60, 0, 0);
   }
   else {
@@ -105,7 +140,11 @@ void loop(void) {
 
   // send change over serial 
   if (active != prevActive) {
-    Serial.println(active);  
+    CAN.beginPacket(0x12);
+    CAN.write(bitRead(data_pad, 0));
+    CAN.write(data_pad >> 1);
+    CAN.write((active > 0) ? 0x01 : 0x00);
+    CAN.endPacket();
   }
   
   prevActive = active; 
