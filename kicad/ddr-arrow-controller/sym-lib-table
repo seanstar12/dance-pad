@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name Arduino-Pro-Mini)(type Legacy)(uri C:/Users/Sean/Documents/kicad/footprints/arduino-pro-mini/Arduino_Pro_Mini.lib)(options "")(descr ""))
+  (lib (name ap63205wu)(type Legacy)(uri C:/Users/Sean/Documents/kicad/footprints/AP63205WU-7/eec.lib)(options "")(descr ""))
+  (lib (name conn_ftdi)(type Legacy)(uri ${KIPRJMOD}/conn_ftdi.lib)(options "")(descr ""))
+  (lib (name TS30013)(type Legacy)(uri C:/Users/Sean/Documents/kicad/footprints/KiCAD-Libs-master/Blocks/TS30013-Buck/TS30013-Buck-cache.lib)(options "")(descr ""))
 )
