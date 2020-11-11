@@ -13,6 +13,8 @@ Use 25 SK6812 LEDs to light up the panel when pressed and show animations when i
 - Teensy 3.2 - interface with DDR cabinet
 - SK6812 - 'Neopixel' LEDs
 - FSR - x32 - 4 per tile
+- ['Dance Sensor'](https://www.aliexpress.com/item/4000438156295.html) from aliexpress for the TPU shell.
+- [FSR](https://www.aliexpress.com/item/4000765691363.html) from aliexpress.
 
 # Why
 I have a DDR cabinet, and I am tired of dealing with stuck sensors. This will let me 

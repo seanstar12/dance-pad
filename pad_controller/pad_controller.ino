@@ -138,7 +138,7 @@ void loop(void) {
     strip.setPixelColor(4, 0, 0, 0);
   }
 
-  // send change over serial 
+  // send change over CANBus 
   if (active != prevActive) {
     CAN.beginPacket(0x12);
     CAN.write(bitRead(data_pad, 0));
@@ -151,6 +151,7 @@ void loop(void) {
 
   // set 'pressure' from sensor
   // blue if pressed, red if hard pressed.
+  // @TODO remove in final, testing only
   for (int i = 0; i < 4; i++) {
     int val = 1024 - adcValues[i];
     int r = 0;
